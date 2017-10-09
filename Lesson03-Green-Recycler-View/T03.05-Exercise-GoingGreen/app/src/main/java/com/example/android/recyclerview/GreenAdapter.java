@@ -86,7 +86,7 @@ public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHo
         viewHolder.itemView.setBackgroundColor(color);
         // DONE (15) Increment viewHolderCount and log its value
         viewHolderCount++;
-        Log.d(getClass().getName(), "viewHolderCount = " + viewHolderCount);
+        Log.d(TAG, "viewHolderCount = " + viewHolderCount);
 
         return viewHolder;
     }
